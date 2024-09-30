@@ -2,6 +2,7 @@ import "./styles.css";
 import clearPage from "./clearPage";
 import home from "./home";
 import menu  from "./menu";
+import about from "./about";
 
 home();
 
@@ -18,4 +19,9 @@ homeBtn.addEventListener("click", () => {
 menuBtn.addEventListener("click", () => {
     clearPage();
     menu();
+})
+
+aboutBtn.addEventListener("click", () => {
+    clearPage();
+    about();
 })
